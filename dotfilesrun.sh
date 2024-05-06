@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-git clone --bare git@github.com:mrjones2014/dotfiles.git $HOME/.dotfiles
+git clone --bare git@github.com:GerhardtB/dotfiles.git $HOME/.dotfiles
 # define config alias locally since the dotfiles
 # aren't installed on the system yet
 function config {
