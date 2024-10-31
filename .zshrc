@@ -14,3 +14,11 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
+help() {
+    if command -v "$1" > /dev/null 2>&1; then
+        man "$1"  # Display the man page for the command
+    else
+        echo "Command not found: $1"
+    fi
+}
+
